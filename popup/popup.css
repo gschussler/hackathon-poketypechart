@@ -1,0 +1,28 @@
+body {
+
+}
+
+header {
+
+}
+
+.typeChartContainer {
+  height: 400px;
+  width: 600px;
+  border: 1px solid black;
+  
+}
+
+.typeChartDef {
+  display: grid;
+  grid-template-columns: repeat(19, 1fr);
+  grid-template-rows: 10px 390px;
+  border: 1px solid rgb(255, 141, 141);
+}
+
+/* .typeChartAtk {
+  display: grid;
+  grid-template-columns: repeat(
+  grid-template-rows: repeat(auto);
+  border: 1px solid rgb(73, 125, 73)
+} */

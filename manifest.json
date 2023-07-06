@@ -1,0 +1,27 @@
+{
+  "name": "Pokemon TypeChart",
+  "description": "I am going to have to catch them all",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*"],
+      "js": ["./main.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ],
+  
+  "action": {
+    "browser_style": true,
+    "default_title": "Pokemon TypeChart",
+    "default_popup": "./popup/popup.html",
+    "default_icon": "./img/snorlax.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting"
+  ]
+}

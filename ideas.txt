@@ -1,0 +1,29 @@
+Dynamic Pokemon Type Chart
+
+API(s) utilized:
+- Pokeapi https://github.com/favware/graphql-pokemon#about
+
+MVP:
+- Layout:
+  - Type Chart, interactive.
+  - Submission form where you could type Pokemon name or type
+    - Sprite of that pokemon appears when selected
+    - Two sides to the form, so that two pokemon can be compared, or two types can be compared
+
+Attack:
+- Pokemon type doesn't matter here, just the moves available to said pokemon
+- Use types of move against enemy pokemon type
+
+Defense:
+- Pokemon type is the only factor here, since we are only dealing in effectiveness
+
+Stretch:
+- Add stats as well, not just effectiveness
+
+
+Needed functionality
+
+TypeChart logic
+
+Submission Form
+- prompt()
