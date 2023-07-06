@@ -27,3 +27,18 @@ TypeChart logic
 
 Submission Form
 - prompt()
+
+
+I PUT MANY COMMENTS IN MAIN.JS
+
+I apologize if it is a bit convoluted, but I realized too late that
+we couldn't make api calls to pokeAPI because the url that is sending
+the fetch request is leetcode lol.
+
+- Got the table cells to render decently
+
+- Attack and defense type cells are clickable with caveats
+  - Anything but normal breaks in the attack column (column 0) if clicked on
+  - There isn't a limit to the amount of defense types that can be clicked in row 0
+
+- Tried to implement a dropdown to switch generations, was before I realized I couldn't fetch from pokeAPI

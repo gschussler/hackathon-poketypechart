@@ -1,9 +1,4 @@
 {
-  "dependencies": {
-    "fetch": "^1.1.0",
-    "jquery": "^3.7.0",
-    "pokedex-promise-v2": "^4.1.1"
-  },
   "name": "hackathon",
   "version": "1.0.0",
   "main": "popup.js",
